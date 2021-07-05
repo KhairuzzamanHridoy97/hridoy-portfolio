@@ -4,7 +4,7 @@ body{
 }
 
 .top-sec{
-    background-image: url(/img/top-banner.png);
+    background: url("../img/top-banner.png");
     background-repeat: no-repeat;
 }
 
@@ -89,5 +89,12 @@ h2{
     border-left: 8px solid;
     border-image: linear-gradient(rgb(185, 69, 23),yellowgreen);
     border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    padding: 22px;
+    background-color: bisque;
+    margin-bottom: 0;
 }
 
